@@ -1,5 +1,4 @@
-:# 1장) 간단하게 살펴보는 함수형 프로그래밍
-
+# 1장) 간단하게 살펴보는 함수형 프로그래밍
 ```text
 함수의 첫 번째 규칙은 작야아한다는 것이다.
 함수의 두 번째 규칙은 그보다 작아야한다는 것이다.
@@ -41,7 +40,7 @@ var calculateTax = (value, percentValue) => { return value / 100 * ( 100 + perce
   - ```js
     # 명령형 형태의 배열 반복
     var array = [1, 2, 3];
-    for (i = 0; i < array.length; i++) {
+    for(i = 0; i < array.length; i++) {
       console.log(array[i]);
     }
     ```
